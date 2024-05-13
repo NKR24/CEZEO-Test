@@ -1,6 +1,6 @@
 :root {
-  font-family: 'Raleway', san-serif;
-  font-weight: 150;
+  --font-family: "Raleway", sans-serif;
+  --second-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -12,6 +12,8 @@ body {
 a,
 h1,
 h2,
+h3,
+h4,
 p,
 button,
 input {

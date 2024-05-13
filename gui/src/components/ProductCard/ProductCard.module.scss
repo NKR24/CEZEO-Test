@@ -1,0 +1,98 @@
+.card {
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  row-gap: 10px;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #2967ff;
+}
+
+p {
+  margin-top: -65px;
+  font-family: "Montserrat", san-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2d2d2f;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  width: 100%;
+  height: 200px;
+  background: url("../../assets/image\ 13.png") no-repeat;
+  background-position: cover;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 122%;
+  color: #8d8d8e;
+  text-decoration: line-through;
+}
+
+h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  color: #ff2d87;
+}
+
+.addToBasket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2967ff;
+  border-radius: 26px;
+  width: 214px;
+  height: 40px;
+}
+
+span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #2967ff;
+}
+
+.information button {
+  margin-top: 90px;
+  border-radius: 41px;
+  padding: 10px;
+  width: 80px;
+  height: 14px;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+}
+
+.first {
+  background: #2967ff;
+}
+
+.second {
+  background: #58cf18;
+}
+
+.third {
+  background: #ffa601;
+}
