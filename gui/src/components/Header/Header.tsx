@@ -8,7 +8,7 @@ import picture from "../../assets/ebalo.png"
 export function Header() {
   return (
     <>
-      <nav className={styles.nav}>
+      <header className={styles.nav}>
         <a href="/">
           <img src={img} alt="logo"/>  
         </a>
@@ -16,19 +16,19 @@ export function Header() {
           <p className={styles.map}>Александровск-Са...</p>
           <div className={styles.search}>
               <input type="search" placeholder="Поиск бренда, товара, категории..."/>
-              <button>
+              <button className={styles.find}>
                 <img src={find} alt="find"/>  
               </button>
           </div>
           <div className={styles.basket}>
-            <div className={styles.item}>
+            <button className={styles.item}>
               <img src={basket} alt="basket"/>  
-            </div>
+            </button>
           </div>
-          <div className={styles.pic}>
+          <button className={styles.pic}>
             <img src={picture} alt="pic"/>  
-          </div>
-      </nav>
+          </button>
+      </header>
     </>
   )
 }
