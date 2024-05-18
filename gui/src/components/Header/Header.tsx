@@ -13,7 +13,7 @@ export function Header() {
           <img src={img} alt="logo"/>  
         </a>
           <img src={pin} alt="pin"/>
-          <p className={styles.map}>Александровск-Са...</p>
+          <p className={styles.map}>Александровск-Са... HEDER</p>
           <div className={styles.search}>
               <input type="search" placeholder="Поиск бренда, товара, категории..."/>
               <button className={styles.find}>
