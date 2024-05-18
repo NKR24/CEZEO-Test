@@ -14,7 +14,7 @@ export function Footer() {
            <img src={logo} alt="logo"/>
            <div className={styles.content}>
              <div className={styles.join}>
-             <p>Присоединяйтесь к нам</p>
+             <p>Присоединяйтесь к нам penis</p>
              <div className={styles.society}>
                <img src={facebook} alt="facebook"/>
                <img src={instagram} alt="facebook"/>  
